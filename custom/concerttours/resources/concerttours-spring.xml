@@ -100,5 +100,6 @@
     <alias name = "defaultTourFacade" alias = "tourFacade" />
     <bean id = "defaultTourFacade" class ="concerttours.facades.impl.DefaultTourFacade" >
      <property name = "productService" ref = "productService" />
-    </bean>		
+    </bean>	
+    <bean id="concertDaysUntilAttributeHandler" class="concerttours.attributehandlers.ConcertDaysUntilAttributeHandler"/>	
 </beans>
